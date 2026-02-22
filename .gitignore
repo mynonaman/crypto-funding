@@ -1,0 +1,20 @@
+# --- SECURITY ---
+# Never upload keys or config files
+config.json
+config.local.json
+.env
+secrets.py
+credentials.txt
+
+# --- DATA PRIVACY ---
+# Never upload real trade logs or P&L
+*.csv
+*.xlsx
+*.parquet
+*.pdf
+
+# --- SYSTEM JUNK ---
+# Clean up Python's hidden files
+__pycache__/
+*.pyc
+.DS_Store
